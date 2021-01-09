@@ -1,0 +1,12 @@
+.main-link{
+    color:#123456;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5 ;
+    padding: 15px 15px 9px 15px;
+}
+
+#main-link-div{
+    background-color: #F79862; height: 35px; width: 100%;
+}
