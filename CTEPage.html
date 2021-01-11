@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Sunnyside TSA</title>    
+    <title>Sunnyside TSA</title> 
+    <link rel="stylesheet" href="mainStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+   $(function(){
+     $("#mainHeader").load("header.html"); 
+   });
+   </script>    
 </head>
 
 <body>
-<h1>CTE Page</h1>
-<a href="index.html">Link to Index</a>
+    <div id="#mainHeader"></div>
+    <h1>CTE Page</h1>
+    <a href="index.html">Link to Index</a>
 </body>
 </html>
