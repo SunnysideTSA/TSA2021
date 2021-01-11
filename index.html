@@ -3,15 +3,16 @@
 <head>
     <title>I'm the Head Honcho</title>    
     <link rel="stylesheet" href="mainStyle.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script> 
+        $(function(){
+          $("#mainHeader").load("header.html"); 
+        });
+        </script> 
 </head>
 
 <body>
-    <div id="main-link-div"> 
-        <a class="main-link" href="CTEPage.html">CTE Page</a>
-        <a class="main-link" href="TSAPage.html">TSA Page</a>
-        <a class="main-link" href="designBrief/index.html">Design Brief</a>
-    </div>
-   
+    <div id="mainHeader"></div>
     <h1>TSA Main Page</h1>
     <p>Welcome to our page</p>
 </body>
